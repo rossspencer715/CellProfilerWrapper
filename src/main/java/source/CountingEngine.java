@@ -146,7 +146,7 @@ public class CountingEngine{
         if(reset){
 
             double min =  Double.parseDouble(JOptionPane.showInputDialog(null," Enter min modifier: "));
-            double max =  Double.parseDouble(JOptionPane.showInputDialog(null," Enter min modifier: "));
+            double max =  Double.parseDouble(JOptionPane.showInputDialog(null," Enter max modifier: "));
             if(min >= 0 && max >= 0){
                 PipelineFactory.minModifier = min;
                 PipelineFactory.maxModifier = max;
